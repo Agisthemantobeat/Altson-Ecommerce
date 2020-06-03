@@ -1,0 +1,38 @@
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\ApplicationInsights.config
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\csc.exe
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\vbc.exe
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\ALTSON NEW.dll.config
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\ALTSON NEW.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\ALTSON NEW.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.Web.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\RestSharp.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\obj\Release\ALTSON NEW.csprojResolveAssemblyReference.cache
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\obj\Release\ALTSON NEW.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\obj\Release\ALTSON NEW.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\SIGN_IN.aspx
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\SIGN_IN.aspx.cs
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\SIGN_IN.aspx.designer.cs
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.Web.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\RestSharp.dll
