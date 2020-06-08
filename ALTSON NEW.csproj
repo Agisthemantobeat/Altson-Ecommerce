@@ -100,6 +100,35 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="account verify.aspx" />
+    <Content Include="bin\ALTSON NEW.dll" />
+    <Content Include="bin\ALTSON NEW.pdb" />
+    <Content Include="bin\Microsoft.AI.Agent.Intercept.dll" />
+    <Content Include="bin\Microsoft.AI.DependencyCollector.dll" />
+    <Content Include="bin\Microsoft.AI.DependencyCollector.xml" />
+    <Content Include="bin\Microsoft.AI.PerfCounterCollector.dll" />
+    <Content Include="bin\Microsoft.AI.ServerTelemetryChannel.dll" />
+    <Content Include="bin\Microsoft.AI.ServerTelemetryChannel.xml" />
+    <Content Include="bin\Microsoft.AI.Web.dll" />
+    <Content Include="bin\Microsoft.AI.Web.xml" />
+    <Content Include="bin\Microsoft.AI.WindowsServer.dll" />
+    <Content Include="bin\Microsoft.AI.WindowsServer.xml" />
+    <Content Include="bin\Microsoft.ApplicationInsights.dll" />
+    <Content Include="bin\Microsoft.ApplicationInsights.xml" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\RestSharp.dll" />
+    <Content Include="bin\RestSharp.xml" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\SIGN_IN.dll" />
+    <Content Include="bin\SIGN_IN.pdb" />
     <Content Include="css1\main.css" />
     <Content Include="css1\util.css" />
     <Content Include="css\style1.css" />
@@ -222,6 +251,8 @@
     <Content Include="img\lights.jpg" />
     <Content Include="img\WhatsApp Image 2020-04-29 at 18.38.13.jpeg" />
     <Content Include="css\style2.css" />
+    <Content Include="insert img.aspx" />
+    <Content Include="js1\main.js" />
     <Content Include="js\animation.js" />
     <Content Include="js\main.js" />
     <Content Include="lib\animate\animate.css" />
@@ -336,21 +367,13 @@
     <Content Include="fonts\iconic\fonts\Material-Design-Iconic-Font.ttf" />
     <Content Include="fonts\iconic\fonts\Material-Design-Iconic-Font.woff" />
     <Content Include="fonts\iconic\fonts\Material-Design-Iconic-Font.woff2" />
-    <Content Include="fonts\poppins\Poppins-Black.ttf" />
-    <Content Include="fonts\poppins\Poppins-Bold.ttf" />
-    <Content Include="fonts\poppins\Poppins-BoldItalic.ttf" />
-    <Content Include="fonts\poppins\Poppins-ExtraBold.ttf" />
-    <Content Include="fonts\poppins\Poppins-ExtraBoldItalic.ttf" />
-    <Content Include="fonts\poppins\Poppins-Italic.ttf" />
-    <Content Include="fonts\poppins\Poppins-Light.ttf" />
-    <Content Include="fonts\poppins\Poppins-LightItalic.ttf" />
-    <Content Include="fonts\poppins\Poppins-Medium.ttf" />
-    <Content Include="fonts\poppins\Poppins-MediumItalic.ttf" />
-    <Content Include="fonts\poppins\Poppins-Regular.ttf" />
-    <Content Include="fonts\poppins\Poppins-SemiBold.ttf" />
-    <Content Include="fonts\poppins\Poppins-SemiBoldItalic.ttf" />
-    <Content Include="fonts\poppins\Poppins-Thin.ttf" />
-    <Content Include="fonts\poppins\Poppins-ThinItalic.ttf" />
+    <Content Include="bin\ALTSON NEW.dll.config" />
+    <Content Include="bin\ApplicationInsights.config" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="bin\SIGN_IN.dll.config" />
+    <Content Include="Handler1.ashx" />
     <None Include="Properties\PublishProfiles\altson - FTP.pubxml" />
     <Content Include="vendor\bootstrap\css\bootstrap-grid.css.map" />
     <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css.map" />
@@ -458,12 +481,22 @@
     <Compile Include="forgotpwd.aspx.designer.cs">
       <DependentUpon>forgotpwd.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="insert img.aspx.cs">
+      <DependentUpon>insert img.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="insert img.aspx.designer.cs">
+      <DependentUpon>insert img.aspx</DependentUpon>
     </Compile>
     <Compile Include="MYCART.aspx.cs">
       <DependentUpon>MYCART.aspx</DependentUpon>
@@ -546,7 +579,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="js1\" />
+    <Folder Include="App_Code\" />
+    <Folder Include="App_Data\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>

@@ -49,6 +49,7 @@ tr[i] . style . display = "none";
 <body>
 
     <form runat="server" class="form-a">
+        <
         <div class="click-closed"></div>
         <!--/ Form Search Star /-->
         <div class="box-collapse">
@@ -126,21 +127,25 @@ tr[i] . style . display = "none";
                                 <label for="price"> Price</label>
                                 <asp:DropDownList ID="DropDownList1" runat="server" class="form-control form-control-lg form-control-a" runat="server">
                                     <asp:ListItem Enabled="true" Text="Select Price" Value="-1"></asp:ListItem>
-                                    <asp:ListItem Text="1000" value="1000"></asp:ListItem>
-                                    <asp:ListItem Text="10000" value="10000"></asp:ListItem>
-                                    <asp:ListItem Text="100000" value="100000"></asp:ListItem>
-                                    <asp:ListItem Text="1000000" value="1000000"></asp:ListItem>
+                                    <asp:ListItem Text="0-100" value="1000"></asp:ListItem>
+                                    <asp:ListItem Text="100-10000" value="10000"></asp:ListItem>
+                                    <asp:ListItem Text="10000-100000" value="100000"></asp:ListItem>
+                                    <asp:ListItem Text="100000-1000000" value="1000000"></asp:ListItem>
                                 </asp:DropDownList>
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <asp:Button ID="Button1" OnClick="btn1_Click" type="submit" class="btn btn-b" runat="server" Text="Search" />
+                            <asp:Button ID="Button1"  OnClick="Button1_Click" type="submit"  class="btn btn-b" runat="server" Text="Search"  />
                             
+                        </div>
+                        <div>
+                            <asp:GridView ID="GridView1" runat="server">
+                        </asp:GridView>
                         </div>
                     </div>
                 
             </div>
-        </div>  </form>
+        </div>  
         <!--/ Form Search End /-->
         <!--/ Nav Star /-->
         <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
@@ -193,14 +198,14 @@ tr[i] . style . display = "none";
                 <a href="Signup.aspx" type="button" class="btn btn-outline-success">Signup</a>
                
                 <button type="button" runat="server" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
-                        data-target="#navbarTogglerDemo01" aria-expanded="false" id="btn1">
+                        data-target="#navbarTogglerDemo01" aria-expanded="false" >
                     <span class="fa fa-search" aria-hidden="true" ></span>
                 </button>
             </div></div>
         </nav>
         <!--/ Nav End /-->
    
-      <section class="intro-single">   
+ <!--     <section class="intro-single">   
    <div class="container">
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
@@ -243,18 +248,15 @@ tr[i] . style . display = "none";
             </li>
           </ul>
 
-          <form class="card p-2">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Promo code"/>
               <div class="input-group-append">
                 <button type="submit" class="btn btn-secondary">Redeem</button>
               </div>
             </div>
-          </form>
         </div>
         <div class="col-md-8 order-md-1">
           <h4 class="mb-3">Billing address</h4>
-          <form class="needs-validation" novalidate>
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">First name</label>
@@ -397,7 +399,6 @@ tr[i] . style . display = "none";
             </div>
             <hr class="mb-4"/>
             <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
-          </form>
         </div>
       </div>
           </div>
@@ -565,7 +566,11 @@ tr[i] . style . display = "none";
         <!--/ Footer End /-->
 
                     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-                    <div id="preloader"></div>
+                    <div id="preloader">
+                        
+        </div>
+
+    </form>
 
                     <!-- JavaScript Libraries -->
                     <script src="lib/jquery/jquery.min.js"></script>

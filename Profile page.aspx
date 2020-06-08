@@ -644,12 +644,12 @@ img.rounded {
 					<div class="col-md-6 ml-auto mr-auto">
                         <div class="profile-tabs">
                           <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
-                            <li class="nav-item">
+                            <li class="nav-item" onclick="liclick()">
                                 <a class="nav-link active" href="#studio" role="tab" data-toggle="tab">
                                   <i class="material-icons">Dashboard</i>
                                  </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" >
                                 <a class="nav-link" href="#works" role="tab" data-toggle="tab">
                                   <i class="material-icons">Edit</i>
                                     Profile

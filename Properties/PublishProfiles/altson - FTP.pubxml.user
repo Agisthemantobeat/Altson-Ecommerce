@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPWYWBu13mEGgWmP1qs2b5QAAAAACAAAAAAAQZgAAAAEAACAAAADLJNPmw5amHuUwT33Wjj6LLAclb6oPqF11CG0pp3XJxQAAAAAOgAAAAAIAACAAAACFwW79MQ6IizcFjmlrOjgM2ZJaE6ZSA92bG2khIlKa7IAAAAAwhQPC+O/YZKAKzefi2ok/n8TweKgBidjIqKjzAtd3OXfmoMGPg0bQcD9dvW0dKWFAr7GvJqLk4Linw32gQQTweMBb6gdsLRvfpPjeOKS2+9JQUdIUFXRTYoCq5m2e1IBRdRMyUD46t1Z7gkv/6Xl5NN9i8kXFUyzPvH5gyAPKJUAAAAAVizu51aqNx1PX1R5ey9N4htxyBFz+LeRKVVOPAwuz0Y5w0UiObMpbuXM4cnkYxrXGpX25ce5CBmm5TTiHV1lc</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.gear.host/site/wwwroot/wwwroot</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://ftp.gear.host/site/wwwroot/</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="aboutnew.aspx">
@@ -20,10 +20,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/25/2020 18:06:38</publishTime>
     </File>
     <File Include="bin/ALTSON NEW.dll">
-      <publishTime>06/03/2020 18:22:50</publishTime>
+      <publishTime>06/06/2020 00:43:56</publishTime>
     </File>
     <File Include="bin/ALTSON NEW.dll.config">
-      <publishTime>05/29/2020 15:06:24</publishTime>
+      <publishTime>06/06/2020 00:42:00</publishTime>
     </File>
     <File Include="bin/ApplicationInsights.config">
       <publishTime>04/25/2020 18:06:38</publishTime>
@@ -92,7 +92,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/19/2015 08:49:46</publishTime>
     </File>
     <File Include="bin/SIGN_IN.aspx">
-      <publishTime>06/03/2020 18:22:43</publishTime>
+      <publishTime>06/06/2020 00:30:59</publishTime>
     </File>
     <File Include="bin/SIGN_IN.aspx.cs">
       <publishTime>05/28/2020 13:55:08</publishTime>
@@ -320,7 +320,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2020 01:39:32</publishTime>
     </File>
     <File Include="Home.aspx">
-      <publishTime>06/01/2020 22:22:43</publishTime>
+      <publishTime>06/06/2020 00:31:21</publishTime>
     </File>
     <File Include="images/avatar-01.jpg">
       <publishTime>05/28/2020 23:22:09</publishTime>
@@ -775,6 +775,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="js/main.js">
       <publishTime>04/25/2020 18:46:30</publishTime>
     </File>
+    <File Include="js1/main.js">
+      <publishTime>05/28/2020 23:22:09</publishTime>
+    </File>
     <File Include="lib/animate/animate.css">
       <publishTime>04/25/2020 18:47:06</publishTime>
     </File>
@@ -956,25 +959,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/10/2020 21:37:06</publishTime>
     </File>
     <File Include="payment.aspx">
-      <publishTime>06/03/2020 00:54:11</publishTime>
+      <publishTime>06/05/2020 05:46:20</publishTime>
     </File>
     <File Include="payment2.aspx">
       <publishTime>05/28/2020 01:47:52</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>06/03/2020 18:23:02</publishTime>
+      <publishTime>06/06/2020 00:44:19</publishTime>
     </File>
     <File Include="products.aspx">
-      <publishTime>06/02/2020 23:34:29</publishTime>
+      <publishTime>06/05/2020 23:44:51</publishTime>
     </File>
     <File Include="Profile page.aspx">
       <publishTime>05/30/2020 23:28:32</publishTime>
+    </File>
+    <File Include="reset pwd.aspx">
+      <publishTime>05/23/2020 12:48:36</publishTime>
     </File>
     <File Include="Signup.aspx">
       <publishTime>05/29/2020 16:14:40</publishTime>
     </File>
     <File Include="SIGN_IN.aspx">
-      <publishTime>06/03/2020 18:22:43</publishTime>
+      <publishTime>06/06/2020 00:30:59</publishTime>
+    </File>
+    <File Include="SIGN_IN.aspx.cs">
+      <publishTime>06/03/2020 10:23:01</publishTime>
+    </File>
+    <File Include="SIGN_IN.aspx.designer.cs">
+      <publishTime>06/03/2020 09:51:34</publishTime>
     </File>
     <File Include="vendor/animate/animate.css">
       <publishTime>05/28/2020 23:22:09</publishTime>
@@ -1085,7 +1097,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2020 23:22:12</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/03/2020 10:49:42</publishTime>
+      <publishTime>06/06/2020 00:44:17</publishTime>
     </File>
   </ItemGroup>
 </Project>

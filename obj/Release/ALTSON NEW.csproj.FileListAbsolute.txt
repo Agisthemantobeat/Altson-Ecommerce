@@ -27,12 +27,3 @@ C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\obj\Rele
 C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\SIGN_IN.aspx
 C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\SIGN_IN.aspx.cs
 C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\SIGN_IN.aspx.designer.cs
-C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.Web.dll
-C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Hp\documents\visual studio 2015\Projects\ALTSON NEW\ALTSON NEW\bin\RestSharp.dll

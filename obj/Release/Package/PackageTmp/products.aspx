@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="products.aspx.cs" Inherits="ALTSON_NEW.products" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="products.aspx.cs" Trace="true" Inherits="ALTSON_NEW.products" %>
 
 <!DOCTYPE html>
 
@@ -37,34 +37,45 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet" />
- 
-    <style>
-         .temp {
-                height: 30px;
-                display: block;
-                padding-left: 13px;
-                padding-top: 5px;
-                border-bottom: 1px solid #c8c8c8;
-            }
-            .e-chkbox-wrap .e-text {
-                font-size: 14px;
-                padding-left: 10px;
-            }
-     </style>
-    <script>
-        function OnCreate(args) {
+           <style>
+    .table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+	
+}
+       </style>
 
-                $("#check").ejCheckBox({ text: "Check All", change: "Change" });
 
-            }
-            function Change(args) {
-                window.flag = true;
-                var obj = $("#<%=DropDownList1.ClientID%>").ejDropDownList("instance");
-                if (args.isChecked) obj.checkAll();
-                else obj.uncheckAll();
-                window.flag = false;
-            }
-    </script>
+
 </head>
 
 <body>
@@ -189,7 +200,7 @@
                             <a class="nav-link " href="aboutnew.aspx">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="MYCART.aspx">My Cart</a>
+                            <a class="auto-style1" href="MYCART.aspx">My Cart</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="MyAccount.aspx">My Account</a>
@@ -219,15 +230,61 @@
                 </button>
             </div></div>
         </nav>
+        <br />
+        <br />
+         <br />
+        
     <section class="intro-single">
-        <div class="container">
- <asp:DropDownList ID="DropDownList6" runat="server" DataTextField="Text" DataValueField="Value" ShowCheckbox="true" HeaderTemplate="<div class='temp' ><input id ='check' type='checkbox'></div>" ClientSideOnCreate="OnCreate">  </asp:DropDownList>
-        </div></section>
-    </form>
-    
-                    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-                    <div id="preloader"></div>
+        <div class="container px-lg-3d py-lg-5">
+	<table id="cart" class="table table-hover table-condensed">
+    				<thead>
+						<tr>
+							<th style="width:50%">Product</th>
+							<th style="width:10%">Price</th>
+							<th style="width:8%">Quantity</th>
+							<th style="width:22%" class="text-center">Subtotal</th>
+							<th style="width:10%"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td data-th="Product">
+								<div class="row">
+									<div class="col-sm-2 pr-7  hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
+                                    <div class="col-sm-1"></div>
+									<div class="col-sm-9 ">
+										<h4 class="nomargin">Product 1</h4>
+										<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+									</div>
+								</div>
+							</td>
+							<td data-th="Price">$1.99</td>
+							<td data-th="Quantity">
+								<input type="number" class="form-control text-center" value="1" />
+							</td>
+							<td data-th="Subtotal" class="text-center">1.99</td>
+							<td class="actions" data-th="">
+								<button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+								<button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
+							</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr class="visible-xs">
+							<td class="text-center"><strong>Total 1.99</strong></td>
+						</tr>
+						<tr>
+						
+							<td colspan="2" class="hidden-xs"></td>
+							<td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
+							<td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+						</tr>
+					</tfoot>
+				</table></div>
+       </section>
 
+    
+            </form>
                     <!-- JavaScript Libraries -->
                     <script src="lib/jquery/jquery.min.js"></script>
                     <script src="lib/jquery/jquery-migrate.min.js"></script>
