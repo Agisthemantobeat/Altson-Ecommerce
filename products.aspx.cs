@@ -27,7 +27,7 @@ namespace ALTSON_NEW
         PictureBox[] pb = new PictureBox[1000];
 
 
-      
+
         protected void Page_Load(object sender, EventArgs e)
         {
             int i = 0;
@@ -67,11 +67,11 @@ namespace ALTSON_NEW
                                 intList.Add(reader[1].ToString());
                                 intList1.Add(reader[0].ToString());
 
-                                intList2.Add("Handler1.ashx?prodname="+reader[0]);
-                                MessageBox.Show(intList2[i]);
+                                intList2.Add("Handler1.ashx?prodname=" + reader[0]);
+                                //       MessageBox.Show(intList2[i]);
                                 i = i + 1;
                             }
-                           
+
                         }
                     }
                 }
@@ -80,8 +80,15 @@ namespace ALTSON_NEW
             {
                 MessageBox.Show(ex.Message);
             }
-                  }
 
+
+
+
+            Response.Cookies["pro"].Expires = DateTime.Now.AddSeconds(1);
+            Response.Cookies["loc"].Expires = DateTime.Now.AddSeconds(1);
+            Response.Cookies["CAT"].Expires = DateTime.Now.AddSeconds(1);
+        }
+   
 
         public new bool IsReusable
         {
@@ -92,32 +99,32 @@ namespace ALTSON_NEW
             }
         }
     }
-    
-
-
-    /*        catch (Exception ex)
-            {
-                MessageBox.Show("Something went wrong.Pls try again");
-                // DropDownList2.SelectedValue = "1000";
-                //DropDownList3.SelectedValue = "1";
-
-                //MessageBox.Show("No such item availiable");
-                //   Response.Redirect("aboutnew.aspx");
-            } 
-
-
-                //        Server.Transfer("products.aspx");
-
-
-
-        }
-
-        private object MemoryStream(object p, object v)
-        {
-            throw new NotImplementedException();
-        }
-    }*/
 }
+
+
+/*        catch (Exception ex)
+        {
+            MessageBox.Show("Something went wrong.Pls try again");
+            // DropDownList2.SelectedValue = "1000";
+            //DropDownList3.SelectedValue = "1";
+
+            //MessageBox.Show("No such item availiable");
+            //   Response.Redirect("aboutnew.aspx");
+        } 
+
+
+            //        Server.Transfer("products.aspx");
+
+
+
+    }
+
+    private object MemoryStream(object p, object v)
+    {
+        throw new NotImplementedException();
+    }
+}*/
+
 
 
 

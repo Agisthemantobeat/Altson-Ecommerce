@@ -39,7 +39,7 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body onunload="Page_unLoad">
 
     <form runat="server" class="form-a">
         <div class="click-closed"></div>
@@ -77,7 +77,7 @@
                     <div class="col-md-6 mb-2">
                         <div class="form-group">
                             <label for="city">City</label>
-                            <asp:DropDownList ID="DropDownList4" runat="server" class="form-control form-control-lg form-control-a" runat="server">
+                            <asp:DropDownList ID="DropDownList4" runat="server" class="form-control form-control-lg form-control-a" >
                                 <asp:ListItem Enabled="true" Text="City" Value="-1"></asp:ListItem>
                                 <asp:ListItem Text="All City" Value="1"></asp:ListItem>
                                 <asp:ListItem Text="Lucknow" Value="2"></asp:ListItem>
@@ -91,7 +91,7 @@
                     <div class="col-md-6 mb-2">
                         <div class="form-group">
                             <label for="amount">Amount</label>
-                            <asp:DropDownList ID="DropDownList3" runat="server" class="form-control form-control-lg form-control-a" runat="server">
+                            <asp:DropDownList ID="DropDownList3" runat="server" class="form-control form-control-lg form-control-a" >
                                 <asp:ListItem Enabled="true" Text="Amount" Value="-1"></asp:ListItem>
                                 <asp:ListItem Text="Any" Value="1"></asp:ListItem>
                                 <asp:ListItem Text="01" Value="2"></asp:ListItem>
@@ -106,7 +106,7 @@
                     <div class="col-md-6 mb-2">
                         <div class="form-group">
                             <label for="garages">Featured</label>
-                            <asp:DropDownList ID="DropDownList2" runat="server" class="form-control form-control-lg form-control-a" runat="server">
+                            <asp:DropDownList ID="DropDownList2" runat="server" class="form-control form-control-lg form-control-a">
                                 <asp:ListItem Enabled="true" Text="Any" Value="-1"></asp:ListItem>
                                 <asp:ListItem Text="Yes" Value="1"></asp:ListItem>
                                 <asp:ListItem Text="No" Value="2"></asp:ListItem>
@@ -117,7 +117,7 @@
                     <div class="col-md-6 mb-2">
                         <div class="form-group">
                             <label for="price">Price</label>
-                            <asp:DropDownList ID="DropDownList1" runat="server" class="form-control form-control-lg form-control-a" runat="server">
+                            <asp:DropDownList ID="DropDownList1" runat="server" class="form-control form-control-lg form-control-a" >
                                 <asp:ListItem Enabled="true" Text="Select Price" Value="-1"></asp:ListItem>
                                 <asp:ListItem Text="RS 0-1000" Value="1"></asp:ListItem>
                                 <asp:ListItem Text="Rs 1000-10000" Value="2"></asp:ListItem>
@@ -206,7 +206,7 @@
       <% Image12.ImageUrl=intList2[i]; %>
               
                     <div class="lg:w-4/5 mx-auto flex flex-wrap">
-                        <asp:Image id="Image12" runat="server" class="lg:w-1/2 w-full sm:h-auto h-64 object-cover object-center rounded"   Height="400" Width="400"/>
+                        <asp:Image id="Image12" runat="server" class="lg:w-1/2 w-full sm:h-auto h-64 object-cover object-center rounded"   Height="300" Width="300"/>
                       
 
                         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0"  />

@@ -205,7 +205,7 @@ tr[i] . style . display = "none";
         </nav>
         <!--/ Nav End /-->
    
- <!--     <section class="intro-single">   
+     <section class="intro-single">   
    <div class="container">
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
