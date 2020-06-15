@@ -98,6 +98,13 @@ namespace ALTSON_NEW
 
             }
         }
+        protected void Button2_Click(object sender,EventArgs e)
+        {
+
+            Response.Cookies["pro"].Value = TextBox1.Text;
+            Response.Cookies["loc"].Value = DropDownList4.SelectedValue;
+            Response.Cookies["CAT"].Value = DropDownList5.SelectedValue;
+        } 
     }
 }
 

@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
      <title>AltSon</title>
        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
@@ -553,7 +553,7 @@ img.rounded {
                     </div>
                 
             </div>
-        </div>  </form>
+        </div> 
         <!--/ Form Search End /-->
         <!--/ Nav Star /-->
         <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
@@ -644,15 +644,101 @@ img.rounded {
 					<div class="col-md-6 ml-auto mr-auto">
                         <div class="profile-tabs">
                           <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
-                            <li class="nav-item" onclick="liclick()">
-                                <a class="nav-link active" href="#studio" role="tab" data-toggle="tab">
-                                  <i class="material-icons">Dashboard</i>
-                                 </a>
+                            <li class="nav-item">
+                               
+                       <!-- Button trigger modal -->
+                   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                      Edit Profile
+                    </button>
+
+                 <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                       <div class="modal-header">
+                               <h5 class="modal-title" id="staticBackdropLabel">My Profile</h5>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                 </div>
+                <div class="modal-body">
+                     <div class="form-row">
+               <h5 class="modal-title" id="exampleModalLabel">Welcome to Update Pannel </h5><br/>
+                        	          
+	                        <div class="form-group col-md-6">
+                                    <label for="username">Username</label>
+	                           <input type="text" class="form-control" placeholder="">
+								
+                                  </div>
+                                 
+
+           
+  
+        <div class="form-group" col-md-6>
+         <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+       <div class="form-group" col-md-6>
+          <label for="inputPhone">Phone No.</label>
+          <input type="Phone Number" class="form-control" id="inputPhone">
+       </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+   
+       </div>
+       <div class="form-group">
+         <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+       </div>
+ 
+        <div class="form-row">
+        <div class="form-group col-md-5">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity"/>
+          </div>
+          <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+                 <select id="inputState" class="form-control">
+                     <option selected>Choose...</option>
+                     <option>...</option>
+                     </select>
+                   </div>
+                <div class="form-group col-md-3">
+                      <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip"/>
+                   </div>
+                 </div>
+                  <div class="form-group">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck"/>
+                  <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                   </div>
+                  </div>
+ 
+                  
+      
+                            </div>
+                         <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save Changes</button>
+                 </div>
+                </div>
+               </div>
+              </div>
+
+
+
+
+
                             </li>
-                            <li class="nav-item" >
+                            <li class="nav-item">
                                 <a class="nav-link" href="#works" role="tab" data-toggle="tab">
-                                  <i class="material-icons">Edit</i>
-                                    Profile
+                                  <i class="material-icons">Dashboard</i>
+                                
                                    </a> 
                             </li>
                             <li class="nav-item">
@@ -795,7 +881,7 @@ img.rounded {
         </div>
         </div>
         </div>
-        </section>
+        </section> </form>
    
         <footer>
             <div class="container">
@@ -864,7 +950,7 @@ img.rounded {
                    </div>
                 </div>
             
-        </footer>
+        </footer>  
         <!--/ Footer End /-->
 
                     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -883,6 +969,7 @@ img.rounded {
 
                     <!-- Template Main Javascript File -->
                     <script src="js/main.js"></script>
-    </form>
+ 
 </body>
 </html>
+
