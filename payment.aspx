@@ -205,7 +205,13 @@ tr[i] . style . display = "none";
         </nav>
         <!--/ Nav End /-->
    
+<<<<<<< HEAD
      <section class="intro-single">   
+||||||| 0e26053
+ <!--     <section class="intro-single">   
+=======
+ <section class="intro-single">   
+>>>>>>> b0d31cbea09200fe546342c8a15240ef7b9351a3
    <div class="container">
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
