@@ -80,7 +80,7 @@
                             <div class="form-group">
                                 <label for="city">City</label>
                                 <asp:DropDownList ID="DropDownList4" class="form-control form-control-lg form-control-a" runat="server">
-                                     <asp:ListItem Enabled="true" Text="City" Value="-1"></asp:ListItem>
+                                     <asp:ListItem Enabled="true" Text="Select City" Value="-1"></asp:ListItem>
                                     <asp:ListItem Text="All City" value="1"></asp:ListItem>
                                      <asp:ListItem Text="Lucknow" value="2"></asp:ListItem>
                                     <asp:ListItem Text="Noida" value="3"></asp:ListItem>
@@ -179,7 +179,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactus.aspx">Contact</a>
+                            <a class="nav-link" href="contactus.aspx">Contact Us</a>
                         </li>
                      </ul>
                 </div>
