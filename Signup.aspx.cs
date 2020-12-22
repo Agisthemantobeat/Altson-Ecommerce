@@ -36,8 +36,8 @@ namespace ALTSON_NEW
                 // Specify your gmail address and password
                 smtpClient.Credentials = new System.Net.NetworkCredential()
                 {
-                    UserName = "altson.ecommerce@gmail.com",
-                    Password = "techbees"
+                    UserName = "***************",
+                    Password = "***************"
                 };
                 // Gmail works on SSL, so set this property to true
                 smtpClient.EnableSsl = true;
